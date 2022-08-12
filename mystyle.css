@@ -1,0 +1,224 @@
+
+ /* Navigation Bar */
+
+.nav-bar {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.nav-bar ul {
+    list-style: none;
+    float: right;
+ /* STICKS OUT THE RIGHT WALL BY 5% */
+    margin-right: 5%;
+    padding-top: 1%
+}
+
+.nav-bar li {
+    display: inline;
+    padding-right: 25px;
+    font-weight: 500;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #A148D7;
+}
+
+.nav-bar img {
+    width: 250px;
+    margin-left: 5%;
+}
+
+ /* Langing page */
+
+.landing-page img {
+    display: block;
+    width: 100%;
+}
+
+.landing-content {
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    color: white;
+    width: 30%;
+}
+
+.landing-page button {
+    position: relative;
+    left: 100px;
+    height: 30px;
+    margin-top: 4%;
+}
+
+#button-one {
+    background-color: #A148D7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+#button-one a {
+    text-decoration: none;
+    color: white;
+}
+
+#button-two {
+    background-color: white;
+    color: #A148D7;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+#button-two a {
+    text-decoration: none;
+    color: #A148D7;
+}
+
+ /* Service page */
+
+ .service-page h2, .service-page p, .service-page button {
+     margin-left: 5%;
+ }
+
+ .service-page h2 {
+     margin-top: 100px;
+     border-bottom: solid 6px #A148D7;
+     width: fit-content;
+
+    /* space between "Our services" and p */
+     margin-bottom: 2%;
+ }
+
+ .service-page p {
+     margin-bottom: 5%;
+ }
+
+ .service-page button {
+     background-color: #A148D7;
+     width: 15%;
+ }
+
+ .services {
+     display: block;
+     margin: auto;
+     margin-bottom: 5%;
+     text-align: center;
+  
+ }
+
+ .services h3, .services p{
+     width: 100%;
+     background-color: #FCECFB;
+     box-sizing: content-box;
+     margin: 0%;
+     padding: 4%;
+     box-sizing: border-box;
+ }
+
+ .services p {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    /* override padding from .services h3, .services p */
+    padding-top: 0%;  
+ }
+ 
+ #button-three {
+    background-color: #A148D7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#button-three a {
+    color: white;
+    text-decoration: none;
+}
+.contact-page-bg {
+    background-color: #22243F;
+    height: 500px;
+}
+
+.contact-page h2 {
+    color: white;
+    padding-top: 50px;
+}
+
+.contact-form {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%
+}
+
+.contact-form input {
+    border-radius: 10px;
+    width: 200px ;
+    padding: 1%;
+    margin-top: 4px;
+}
+
+.contact-form textarea {
+    border-radius: 10px;
+    margin-top: 4px;
+    width: 400px;
+    padding: 2%;
+    font-style: italic;
+}
+
+.contact-page button {
+    background-color: #A148D7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    background-color: #22243F;
+    height: 150px;
+}
+
+footer img {
+    bottom: 50px;
+    width: 175px;
+    margin-left: 10%;
+    padding-top: 4%;
+}
+
+footer ul {
+    padding-top: 4%;
+    position: relative;
+    bottom: 85px;
+    margin-left: 20%;
+}
+
+footer li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding-right: 2%;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
